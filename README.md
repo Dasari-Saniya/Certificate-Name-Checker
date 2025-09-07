@@ -21,10 +21,6 @@ A mini project that allows users to check whether a name appears on a PDF certif
 - JavaScript
 - pdf.js (for reading PDF content)
 
-## Screenshot
-![Screenshot of Certificate Name Checker](screenshot.png)
-*Replace `screenshot.png` with your actual screenshot file.*
-
 ## Live Demo
 You can host this project using GitHub Pages:
 1. Go to your repository → Settings → Pages
