@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Name Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Certificate Name Checker</h1>
+
+    <label for="name">Enter Name</label>
+    <input id="name" type="text" placeholder="e.g. Dasari Saniya" autocomplete="off" />
+
+    <label for="file">Upload Certificate (PDF)</label>
+    <input id="file" type="file" accept="application/pdf" />
+
+    <button id="checkBtn">Check</button>
+
+    <div id="result"></div>
+  </div>
+
+  <!-- pdf.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
